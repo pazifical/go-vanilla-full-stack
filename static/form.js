@@ -61,6 +61,15 @@ function parseFormData(form) {
       case "date":
         // TODO:
         break;
+      case "month":
+        // TODO:
+        break;
+      case "time":
+        // TODO:
+        break;
+      case "week":
+        // TODO:
+        break;
       case "datetime-local":
         // TODO:
         break;
