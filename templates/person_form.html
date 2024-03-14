@@ -1,0 +1,61 @@
+<div>
+  <h2>Add Person</h2>
+  <form method="POST" action="/api/person">
+    <div>
+      <label for="name">Name</label>
+      <br />
+      <input id="name" type="text" name="name" required />
+    </div>
+    <br />
+    <div>
+      <label for="age">Age</label>
+      <br />
+      <input id="age" type="number" name="age" required />
+    </div>
+    <br />
+    <div>
+      <label for="password">Password</label>
+      <br />
+      <input id="password" type="password" name="password" required />
+    </div>
+    <br />
+    <div>
+      <label for="professional">Professional</label>
+      <input id="professional" type="checkbox" name="professional" />
+    </div>
+    <br />
+    <div>
+      <label for="skill-level">Skill Level</label>
+      <br />
+      <input id="skill-level" type="range" name="skill_level" min="1" max="5" />
+    </div>
+    <br />
+    <div>
+      <label for="gender">Gender</label>
+      <br />
+      <input type="radio" name="gender" value="female" required /> Female
+      <br />
+      <input type="radio" name="gender" value="male" required /> Male
+      <br />
+      <input type="radio" name="gender" value="other" required /> Other
+    </div>
+    <br />
+    <div>
+      <label for="message">Message:</label>
+      <br />
+      <textarea name="message"></textarea>
+    </div>
+    <br />
+    <div>
+      <label for="color">Favourite Color:</label>
+      <br />
+      <select name="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+    </div>
+    <br />
+    <input type="submit" value="Send" />
+  </form>
+</div>

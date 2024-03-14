@@ -1,0 +1,33 @@
+<div>
+  <h2>Existing People</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Favourite color</th>
+        <th>Professional</th>
+        <th>Skill level</th>
+        <th>Message</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{range .}}
+      <tr>
+        <td>{{.Name}}</td>
+        <td>{{.Age}}</td>
+        <td>{{.Gender}}</td>
+        <td>{{.Color}}</td>
+        {{if .Professional}}
+        <td>Yes</td>
+        {{else}}
+        <td>No</td>
+        {{end}}
+        <td>{{.SkillLevel}}</td>
+        <td>{{.Message}}</td>
+      </tr>
+      {{end}}
+    </tbody>
+  </table>
+</div>

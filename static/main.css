@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+  padding: 1rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+input,
+textarea,
+select {
+  font-size: 1rem;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+}
+
+button,
+input[type="submit"] {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+button:hover,
+input[type="submit"]:hover {
+  color: black;
+  background-color: white;
+}
+
+table,
+tr,
+td,
+th {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+td {
+  border-top: solid 1px black;
+}
